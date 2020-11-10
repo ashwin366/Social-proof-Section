@@ -128,7 +128,9 @@ img {
 }
 
 .attribution {
-  margin-top: 100px;
+  margin-top: 70px;
+  position: absolute;
+  z-index:1;
 }
 
 @media (max-width:1320px) {
