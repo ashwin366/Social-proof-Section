@@ -87,7 +87,7 @@ h1 {
   display: grid;
   grid-gap: 30px;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 0 11% 5%;
+  padding: 0 11% 0;
 }
 
 .bottom-section h4 {
@@ -127,11 +127,6 @@ img {
   margin-top: 30px;
 }
 
-.attribution {
-  margin-top: 70px;
-  position: relative;
-  z-index:1;
-}
 
 @media (max-width:1320px) {
   .first-rating, .second-rating, .third-rating {
