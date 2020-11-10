@@ -127,6 +127,9 @@ img {
   margin-top: 30px;
 }
 
+.attribution{
+  margin-top: 50px;
+
 
 @media (max-width:1320px) {
   .first-rating, .second-rating, .third-rating {
