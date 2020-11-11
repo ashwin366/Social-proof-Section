@@ -1,4 +1,7 @@
 body {
+  background-image: url(bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
   margin: 0;
   font-family: "Spartan";
   font-size: 14px;
@@ -26,6 +29,8 @@ h1 {
 
 /* TOP SECTION */
 .top-section {
+  background-image: url(bg-pattern-top-desktop.svg);
+  background-repeat: no-repeat;
   padding: 8% 11% 5%;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -127,10 +132,9 @@ img {
   margin-top: 30px;
 }
 
-.attribution{
+.attribution {
   margin-top: 50px;
 }
-
 
 @media (max-width:1320px) {
   .first-rating, .second-rating, .third-rating {
@@ -139,6 +143,9 @@ img {
 }
 
 @media (max-width:1150px) {
+  body{
+    background-image: none;
+  }
   .title {
     text-align: center;
     width: auto;
